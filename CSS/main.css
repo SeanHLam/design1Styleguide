@@ -131,6 +131,46 @@ div.colour_card {
 }
 
 
+/* Fonts */
+
+.font_cont {
+	font-size: 30px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.font_title {
+	font-size: 32px;
+	font-weight: bold;
+	text-align:center;
+	font-size: 5vw;
+    margin: 0;
+	font-family: DM Sans;
+}
+
+.dmsans {
+	font-family: 'DM Sans', sans-serif;
+}
+
+.shadow {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.bebas {
+	font-family:'Bebas Neue', cursive;
+}
+
+.dmsans, .shadow, .bebas {
+	margin-bottom:2em;
+	text-align:center;
+}
+
+
+hr {
+	height:2px;
+	width: 300px;
+	background-color:black;
 
 
 /* IMAGERY PAGE */
@@ -240,4 +280,5 @@ li{
 
 li:hover{
 	background-color: #6D8C8E;
+
 }
