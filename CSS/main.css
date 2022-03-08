@@ -2,11 +2,10 @@ body {
     background-color: #dae5e7;
     margin-left: 8em;
     margin-right: 8em;
+	margin: 0;
  }
 
- body{
-	 margin: 0;
- }
+ 
 
 /* GLOBAL FONTS */
 
@@ -190,10 +189,7 @@ hr {
 
 
 /* IMAGERY PAGE */
-.imageCont{
-	background-color: #dae5e7;
-	
-}
+
 
 h3{
 	display: flex;
@@ -204,6 +200,7 @@ h3{
 .icons, .graphics{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .elements, .menu{
@@ -211,16 +208,12 @@ h3{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	flex-wrap: wrap;
 }
 
 .fa-5x{
 	color: #d2837c;
 	margin: .2em;
-}
-
-.graphic{
-	width: 15%;
-	height: auto;
 }
 
 
