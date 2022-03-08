@@ -1,11 +1,10 @@
 body {
     background-color: #dae5e7;
-    margin-left: 8em;
-    margin-right: 8em;
+    margin-left: 10em;
+    margin-right: 12em;
 	margin: 0;
  }
 
- 
 
 /* GLOBAL FONTS */
 
@@ -56,41 +55,33 @@ a:hover{
 }
 
 /* COLOUR PAGE */
-/*.title {
-	font-size: 72px;
-    position:absolute;
-}
 
-p.description {
-    position: absolute;
-    
-}*/
-
-.side_description {
-    position: absolute;
-    top: 10em;
+.color_description {
+    margin-top: 2em;
     font-family: DM Sans;
 }
 
-h1.title {
-    font-size: 5vw;
+.color_description > h1.color_title {
+    margin: 2em;
+	font-size: 72px;
+	font-weight: bold;
+	text-align:center;
     margin: 0;
+	font-family: DM Sans;
 }
 
-h2.paragraph {
-    font-size: 1.5vw;
-}
-
-h2.title{
-	display: flex;
-	justify-content: center;
+.color_paragraph{
+    margin: 1em;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
 }
 
 div.palette {
 	display: grid;
     grid-template-columns: auto auto auto;
 	grid-gap: .5em;
-	justify-content: end;
+	justify-content: center;
 	margin-top: 2em;
     font-family: DM Sans, san-serif;
 }
@@ -99,7 +90,7 @@ div.colour_card {
     background-color: white;
     border-radius: 5px;
 	width: 15em; 
-	height: 22em;
+	height: 21em;
 	margin: 1em;          
 }
 
@@ -108,15 +99,9 @@ div.colour_card {
     height: 15em;
 }
 
-.colour_card:nth-child(1) {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    width: 52em;
-}
 
 .colour_card:nth-child(1) > div.colour {
-	background-color: #DAE5E7;
-    width: 52em;
+	background-color: #dae5e7;
 }
 
 .colour_card:nth-child(2) > div.colour {
@@ -124,7 +109,7 @@ div.colour_card {
 }
 
 .colour_card:nth-child(3) > div.colour {
-	background-color: #FEC397;
+	background-color: #F6FEFF;
 }
 
 .colour_card:nth-child(4) > div.colour {
@@ -132,23 +117,41 @@ div.colour_card {
 }
 
 .colour_card:nth-child(5) > div.colour {
-	background-color: #6D8C8E;
-}
-
-.colour_card:nth-child(6) > div.colour {
 	background-color: #8EAAAC;
 }
 
-.colour_card:nth-child(7) > div.colour {
-	background-color: #f6feff;
+.colour_card:nth-child(6) > div.colour {
+    background-color: #6D8C8E;
+
 }
 
-.hex {
+.hex_rgb {
     position: sticky;
     margin-top: 1em;
     margin-left: .5em;
     font-size: 18px;
+    margin-bottom: 1em;
 }
+
+/* span.colour_description {
+    font-size: 16px;
+} */
+
+.colour_description {
+    display:none;
+}
+
+.colour:hover > div.colour_description {
+    display:block;
+    padding: 1em;
+    color: #6f5f5e;
+}
+.colour_card:nth-child(2) > div.colour  > div.colour_description,
+.colour_card:nth-child(6) > div.colour  > div.colour_description {
+    color: #F6FEFF;
+}
+
+
 
 
 /* Fonts */
@@ -164,7 +167,6 @@ div.colour_card {
 	font-size: 32px;
 	font-weight: bold;
 	text-align:center;
-	font-size: 5vw;
     margin: 0;
 	font-family: DM Sans;
 }
