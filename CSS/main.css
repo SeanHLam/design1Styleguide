@@ -299,6 +299,7 @@ li:hover{
 	
 }
 
+
 .gap{
 	margin-bottom: 5em;
 }
@@ -308,3 +309,37 @@ li:hover{
     position: relative;
     left: 30%;
 }
+
+/* LOGO PAGE */
+
+.logo{
+	padding: 40px;
+	border: outset 3px #d2837c;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 40%;
+}
+.logoIcons{
+	padding: 10px;
+	border: outset 3px #d2837c;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 5%;
+}
+.logos {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(8, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	}
+	
+	.logo, .logoIcons{ grid-area: 1 / 1 / 9 / 2; }
+	.logoDesc { grid-area: 1 / 2 / 2 / 3; }
+
+.logoDesc{	
+
+}
+
