@@ -108,6 +108,9 @@ div.colour_card {
 	font-size: 32px;
 	font-weight: bold;
 	text-align:center;
+	font-size: 5vw;
+    margin: 0;
+	font-family: DM Sans;
 }
 
 .dmsans {
