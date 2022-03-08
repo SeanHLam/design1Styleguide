@@ -49,6 +49,12 @@ a:hover{
 	color: #6d8c8e;
 }
 
+.navLogo{
+	position: absolute;
+	width: 5%;
+	left:50px;
+}
+
 /* COLOUR PAGE */
 /*.title {
 	font-size: 72px;
@@ -252,6 +258,7 @@ h3{
 .borders{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 
 }
 
@@ -274,9 +281,15 @@ h3{
 
 .menus{
 	margin:20px;
+	
+}
+
+ul{
+	padding-inline-start: 0px;
 }
 
 li{
+	color: #dae5e7;
 	text-align: center;
 	width: 200px;
 	list-style-type: none;
@@ -284,12 +297,23 @@ li{
 	background-color: #8EAAAC;
 	padding: .5em;
 	transition: background-color .5s;
+	
 }
-
 
 li:hover{
 	background-color: #6D8C8E;
+	
+}
 
+
+.gap{
+	margin-bottom: 5em;
+}
+
+.paraText{
+	float: left;
+    position: relative;
+    left: 30%;
 }
 
 /* LOGO PAGE */
@@ -329,4 +353,5 @@ li:hover{
 	border: outset 3px #d2837c;
 	width: 5%;
 }
+
 
