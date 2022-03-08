@@ -10,11 +10,11 @@ body {
 /* GLOBAL FONTS */
 
 .button, li, a{
-	font-family:'Bebas Neue', cursive;
+	font-family:'Oswald', sans-serif;
 }
 
 .title, h3{
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Patrick Hand', cursive;
 }
 
 p{
