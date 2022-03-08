@@ -8,6 +8,21 @@ body {
 	 margin: 0;
  }
 
+/* GLOBAL FONTS */
+
+.button, li, a{
+	font-family:'Bebas Neue', cursive;
+}
+
+.title, h3{
+	font-family: 'Shadows Into Light', cursive;
+}
+
+p{
+	font-family: 'DM Sans', sans-serif;
+}
+
+
 /* NAV BAR */
 
 .nav{
@@ -283,3 +298,5 @@ li:hover{
 	background-color: #6D8C8E;
 
 }
+
+
