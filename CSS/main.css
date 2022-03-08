@@ -49,6 +49,12 @@ a:hover{
 	color: #6d8c8e;
 }
 
+.navLogo{
+	position: absolute;
+	width: 5%;
+	left:50px;
+}
+
 /* COLOUR PAGE */
 /*.title {
 	font-size: 72px;
