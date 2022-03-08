@@ -168,15 +168,15 @@ div.colour_card {
 	font-family: 'DM Sans', sans-serif;
 }
 
-.shadow {
-	font-family: 'Shadows Into Light', cursive;
+.patrick {
+	font-family: 'Patrick Hand', cursive;
 }
 
-.bebas {
-	font-family:'Bebas Neue', cursive;
+.oswald {
+	font-family:'Oswald', sans-serif;
 }
 
-.dmsans, .shadow, .bebas {
+.dmsans, .patrick, .oswald {
 	margin-bottom:2em;
 	text-align:center;
 }
