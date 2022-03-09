@@ -57,12 +57,12 @@ a:hover{
 /* COLOUR PAGE */
 
 .color_description {
-    margin-top: 2em;
+    margin: 2em;
     font-family: DM Sans;
+    color:#6f5f5e;
 }
 
 .color_description > h1.color_title {
-    margin: 2em;
 	font-size: 72px;
 	font-weight: bold;
 	text-align:center;
@@ -71,7 +71,7 @@ a:hover{
 }
 
 .color_paragraph{
-    margin: 1em;
+    margin: .5em;
     text-align: center;
     font-size: 28px;
     font-family: 'Oswald', sans-serif;
@@ -131,6 +131,7 @@ div.colour_card {
     margin-left: .5em;
     font-size: 18px;
     margin-bottom: 1em;
+    color:#6f5f5e;
 }
 
 /* span.colour_description {
@@ -147,7 +148,9 @@ div.colour_card {
     color: #6f5f5e;
 }
 .colour_card:nth-child(2) > div.colour  > div.colour_description,
-.colour_card:nth-child(6) > div.colour  > div.colour_description {
+.colour_card:nth-child(6) > div.colour  > div.colour_description,
+.colour_card:nth-child(4) > div.colour  > div.colour_description, 
+.colour_card:nth-child(5) > div.colour  > div.colour_description{
     color: #F6FEFF;
 }
 
