@@ -18,9 +18,22 @@ body {
 	color: #6f5f5e;
 }
 
-p, div, .normalLink, h1{
+p, div, .normalLink, h1, .names{
 	font-family: 'DM Sans', sans-serif;
 	color: #6f5f5e;
+}
+
+
+.the_title{
+	margin-top: 200px;
+	font-size: 72px;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.names{
+	text-align: center;
+	margin-bottom: 80vh;
 }
 
 
