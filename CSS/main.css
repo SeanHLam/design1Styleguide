@@ -8,7 +8,7 @@ body {
 
 /* GLOBAL FONTS */
 
-.button, li, a{
+.button, li, a.link{
 	font-family:'Oswald', sans-serif;
 	color: #6f5f5e;
 }
@@ -18,7 +18,7 @@ body {
 	color: #6f5f5e;
 }
 
-p, div{
+p, div, .normalLink{
 	font-family: 'DM Sans', sans-serif;
 	color: #6f5f5e;
 }
@@ -35,7 +35,7 @@ p, div{
 }
 
 
-a{
+a.link{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -47,7 +47,7 @@ a{
 	transition: color .5s;
 }
 
-a:hover{
+a.link:hover{
 	background-color: #6f5f5e;
 	color: #6d8c8e;
 }
@@ -350,7 +350,12 @@ h3{
 	height: 50px;
 	margin: 1em;
 	border-radius: 25px;
+	text-decoration: none;
 	transition: background-color .5s;
+}
+
+a.button{
+	margin-bottom: 3em;
 }
 
 .buttonSmall{
@@ -382,7 +387,10 @@ h3{
     border: solid #f6feff 8px;
 	background-color: #f6feff;
     border-radius: 5px;
-	margin: 1em;          
+	margin: 1em;   
+	
+	
+	
 }
 
 .cardNone{
@@ -452,12 +460,20 @@ li.b:hover{
 	margin-bottom: 5em;
 }
 
+.text{
+	display: flex;
+	justify-content: center;
+}
+
 .paraText{
-	float: left;
-    position: relative;
-    left: 30%;
-	font-size: 24px;
-	margin-bottom: 1em;
+
+	font-size: 18px;
+	border: solid #f6feff 8px;
+	background-color: #f6feff;
+    border-radius: 5px;
+	margin: 1em;
+	width: 500px;
+	height: 140px;   
 }
 
 .pic{
@@ -469,6 +485,12 @@ li.b:hover{
  
 	
 }
+
+.ref{
+	display: flex;
+	justify-content: center;
+}
+
 
 /* LOGO PAGE */
 
