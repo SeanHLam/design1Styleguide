@@ -156,13 +156,16 @@ div.colour_card {
 } */
 
 .colour_description {
-    display:none;
+    visibility: hidden;
+  	opacity: 0;
+  	transition: visibility 0s, opacity 0.5s linear;
 }
 
 .colour:hover > div.colour_description {
-    display:block;
     padding: 1em;
     color: #6f5f5e;
+	visibility: visible;
+  	opacity: 1;
 }
 .colour_card:nth-child(2) > div.colour  > div.colour_description,
 .colour_card:nth-child(6) > div.colour  > div.colour_description,
